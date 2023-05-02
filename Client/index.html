@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Task Board</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="top">
+<p style = "position: relative;
+  left: -23px;">Task Board</p>
+<div>
+<input style = " display: inline; " id="name" placeholder="Task"/>
+<input style = " display: inline; " id="startDate" placeholder="Start Date"/>
+<input style = " display: inline; " id="endDate" placeholder="End Date"/>
+<input style = " display: inline; " id="progress" placeholder="Progress" type="number"/>
+<button id="test" class="addButton">add</button>
+</div>
+</div>
+<div class="flex-container" id="contain">
+</div>
+
+<div id="login" class="createLogin" style = " display: none; margin-top: 10px;">
+<p>Login</p>
+<input id="emailLogin" style = "width: 163px; margin-top: 5px;" placeholder="Email"/>
+<input id="passwordLogin" style = "width: 163px; margin-top: 5px;" placeholder="Password"/>
+<button id="loginButton" style = " display: block;     margin-left: auto;
+    margin-right: auto; width: 163px; margin-top: 5px;">login</button>
+<button id="swichCreate" style = "width: 163px; margin-top: 5px;">don't have an account</button>
+<div id="badLogin" style = " display: none; ">wrong email or password</div>
+</div>
+
+<div id="createUser" class="createLogin" style = " display: none; margin-top: 10px;">
+<p>Create Account</p>
+<input id="emailNew" style = "width: 163px; margin-top: 5px;" placeholder="Email"/>
+<input id="namef" style = "width: 163px; margin-top: 5px;" placeholder="First Name"/>
+<input id="namel" style = "width: 163px; margin-top: 5px;" placeholder="Last Name"/>
+<input id="passwordNew" style = "width: 163px; margin-top: 5px;"  placeholder="Password"/>
+<button id="createUserButton" style = " display: block;     margin-left: auto;
+    margin-right: auto; width: 163px; margin-top: 5px;">Create Account</button>
+<button style = "width: 163px; margin-top: 5px;" id="swichLogin">already have an account</button>
+<div id="badCreate" style = " display: none; ">email already exists</div>
+
+</div>
+
+<script  src="./script.js"></script>
+
+</body>
+</html>

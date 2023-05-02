@@ -1,0 +1,119 @@
+body{
+  text-align:center;
+  overflow-x: hidden;
+}
+
+.top{
+  background-color: #E74C3C;
+  display: block;
+  margin-bottom: 0px;
+  margin-top: -8px;
+  margin-right: -10px;
+  margin-left: -8px;
+  padding: 0px;
+  top: 0%;
+  left: 0%;
+  height: 16%;
+  width: 103%;
+
+}
+
+input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize:none;
+  margin-top: 2px;
+  width: 140px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p{
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  font-family: "Times New Roman", Times, serif;
+  background: white;
+  padding: 5px;
+  width: 420px;
+  height: 190px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: black;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  filter: drop-shadow(4px 4px 4px gray);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-item2 {
+  font-family: "Times New Roman", Times, serif;
+  background: white;
+  padding: 5px;
+  width: 420px;
+  height: 190px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: black;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  filter: drop-shadow(4px 4px 4px gray);
+}
+
+.name {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3.3em;
+  width:  400px;
+}
+
+.startDate {
+  text-align: center;
+  font-size:1.5em;
+  width:  130px;
+}
+
+.endDate {
+  text-align: center;
+  font-size: 1.5em;
+  width:  130px;
+}
+
+.progress {
+  text-align: center;
+  font-size: 1.5em;
+  width:  80px;
+}
+
+.update {
+  margin-top:  16px;
+}
+
+.deleteButton {
+  margin-top: 18px;
+  margin-left: 4px;
+  height: 20px;
+}
