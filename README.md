@@ -4,7 +4,7 @@ a simple web app for creating task
 has secure authentiaction
 uses proper rest endpoints for editing and creation of tasks
 
-<img src="websiteScreenshot.png" width="256"/>
+<img src="websiteScreenshot.png" width="786"/>
 
 ## Resource
 
